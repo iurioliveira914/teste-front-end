@@ -1,0 +1,108 @@
+@import '../../styles/colors.scss';
+
+.sectionExterna {
+    width: 1277px;
+    margin-inline: auto;
+    
+    .headingExterno {
+        text-align: center;
+        color: $primary-pink;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        margin-top: 34px;
+    }
+
+    .paragraphExterno {
+        color: #3f3f40;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .partnerSection {
+        margin-top: 50px;
+        
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 105px;
+    
+        .partnerContent {
+            width: 598px;
+            height: 282px;
+        
+            border-radius: 20px;
+        
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 85.04%);
+            background-image: url('../../assets/partner-image/partner.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            padding-left: 40px;
+            padding-bottom: 40px;
+        }
+
+        h2 {
+            color: $white;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        } 
+
+        p {
+            color: $white;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        button {
+            width: 134.589px;
+            height: 48px;
+            background-color: $primary-pink;
+            border: none;
+            border-radius: 10px;
+
+            color: $white;
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            letter-spacing: 1.28px;
+            text-transform: uppercase;
+
+            margin-top: 32px;
+        }
+    }
+
+    .marcasContainer {
+        margin-top: 52px;
+        
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+
+        .imageContainer {
+            width: 211px;
+            height: 211px;
+            border-radius: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.13);
+        }
+    }
+}
