@@ -1,9 +1,10 @@
+Instalação e uso
 # Abra um terminal e copie este repositório com o comando
-https://github.com/iurioliveira914/teste-front-end.git
+git clone https://github.com/iurioliveira914/dt-money
 # ou use a opção de download.
 
-# Entre na pasta com o comando
-cd teste-front-end
+# Entre na pasta web com 
+cd dt-money
 
 # Instale as dependências
 npm install
